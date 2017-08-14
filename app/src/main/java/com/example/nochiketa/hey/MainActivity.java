@@ -87,7 +87,8 @@ public class MainActivity extends AppCompatActivity {
                 "Argentina", "Turkey", "Vietnam", "Austria", "Nepal", "Sri Lanka", "Portugal",
                 "Brazil","Sweden","Denmark","Cuba", "Egypt","Mexico","Iran","Belgium","Saudia Arabia",
                 "Sudan","Czech Republic","Bhutan", "United Arab Emirates","Hong Kong","New Zealand",
-                "Singapore","Norway","Ukrain","Scotland","Venezuela","Angola","Iraq","Tunisia","Bahrain"
+                "Singapore","Norway","Ukrain","Scotland","Venezuela","Angola","Iraq","Tunisia","Bahrain",
+                "Finland","Bulgaria"
         };
 
         icon = new Integer[] {
@@ -101,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.saudiarabia,R.drawable.sudan,R.drawable.czech,R.drawable.bhutan,R.drawable.arabemirates,
                 R.drawable.hongkong,R.drawable.newzealand,R.drawable.singapore,R.drawable.norway, R.drawable.ukrain,
                 R.drawable.scotland,R.drawable.venezuela,R.drawable.angola,R.drawable.iraq,R.drawable.tunisia,
-                R.drawable.bahrain
+                R.drawable.bahrain,R.drawable.finland,R.drawable.bulgaria
         };
 
         for (int i=0; i<name.length; i++) {

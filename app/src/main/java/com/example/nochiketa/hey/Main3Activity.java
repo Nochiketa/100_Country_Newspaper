@@ -2556,6 +2556,112 @@ public class Main3Activity extends AppCompatActivity {
                     myWebView.loadUrl("http://www.chandrikadaily.com/");
                 }
             }
+            else if(country.equals("Finland"))
+            {
+                if(paper.equals("Helsingin Sanomat"))
+                {
+                    setTitle("Helsingin Sanomat");
+                    myWebView.loadUrl("http://www.hs.fi/");
+                }
+                if(paper.equals("Helsinki Times"))
+                {
+                    setTitle("Helsinki Times");
+                    myWebView.loadUrl("http://www.helsinkitimes.fi/");
+                }
+                if(paper.equals("Aamulehti"))
+                {
+                    setTitle("Aamulehti");
+                    myWebView.loadUrl("https://www.aamulehti.fi/");
+                }
+                if(paper.equals("Iltalehti"))
+                {
+                    setTitle("Iltalehti");
+                    myWebView.loadUrl("http://www.iltalehti.fi/");
+                }
+                if(paper.equals("Hufvudstadsbladet"))
+                {
+                    setTitle("Hufvudstadsbladet");
+                    myWebView.loadUrl("https://www.hbl.fi/");
+                }
+                if(paper.equals("Turun Sanomat"))
+                {
+                    setTitle("Turun Sanomat");
+                    myWebView.loadUrl("http://www.ts.fi/");
+                }
+                if(paper.equals("Ilta-Sanomat"))
+                {
+                    setTitle("Ilta-Sanomat");
+                    myWebView.loadUrl("http://www.is.fi/");
+                }
+                if(paper.equals("Kauppalehti"))
+                {
+                    setTitle("Kauppalehti");
+                    myWebView.loadUrl("https://www.kauppalehti.fi/");
+                }
+                if(paper.equals("Kaleva"))
+                {
+                    setTitle("Kaleva");
+                    myWebView.loadUrl("http://www.kaleva.fi/");
+                }
+                if(paper.equals("Keskisuomalainen"))
+                {
+                    setTitle("Keskisuomalainen");
+                    myWebView.loadUrl("http://www.ksml.fi/");
+                }
+            }
+            else if(country.equals("Bulgaria"))
+            {
+                if(paper.equals("Dnevnik"))
+                {
+                    setTitle("Dnevnik");
+                    myWebView.loadUrl("http://www.dnevnik.bg/");
+                }
+                if(paper.equals("Standart"))
+                {
+                    setTitle("Standart");
+                    myWebView.loadUrl("http://www.standartnews.com/");
+                }
+                if(paper.equals("Trud"))
+                {
+                    setTitle("Trud");
+                    myWebView.loadUrl("https://trud.bg/");
+                }
+                if(paper.equals("Kapital"))
+                {
+                    setTitle("Kapital");
+                    myWebView.loadUrl("http://www.capital.bg/");
+                }
+                if(paper.equals("24 Chasa"))
+                {
+                    setTitle("24 Chasa");
+                    myWebView.loadUrl("https://www.24chasa.bg/");
+                }
+                if(paper.equals("The Sofia Echo"))
+                {
+                    setTitle("The Sofia Echo");
+                    myWebView.loadUrl("http://www.sofia-guide.com/");
+                }
+                if(paper.equals("Meridian Match"))
+                {
+                    setTitle("Meridian Match");
+                    myWebView.loadUrl("http://www.meridianmatch.bg/");
+                }
+                if(paper.equals("Novinar"))
+                {
+                    setTitle("Novinar");
+                    myWebView.loadUrl("https://e-novinar.com/");
+                }
+                if(paper.equals("Telegraph"))
+                {
+                    setTitle("Telegraph");
+                    myWebView.loadUrl("http://www.telegraph.bg/");
+                }
+                if(paper.equals("Makedonia"))
+                {
+                    setTitle("Makedonia");
+                    myWebView.loadUrl("https://www.revolvy.com/");
+                }
+            }
             myWebView.setWebViewClient(new WebViewClient());
         }
 

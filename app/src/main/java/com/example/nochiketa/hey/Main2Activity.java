@@ -549,6 +549,26 @@ public class Main2Activity extends AppCompatActivity {
             ListAdapter listAdapter = new ArrayAdapter<String>(this, R.layout.item, R.id.TV, val);
             listView.setAdapter(listAdapter);
         }
+        else if(name.equals("Finland"))
+        {
+            setTitle("Finland Newspapers");
+            val = new String[] {"Helsingin Sanomat", "Helsinki Times", "Aamulehti",
+                    "Iltalehti", "Hufvudstadsbladet", "Turun Sanomat", "Ilta-Sanomat",
+                    "Kauppalehti", "Kaleva", "Keskisuomalainen"};
+
+            ListAdapter listAdapter = new ArrayAdapter<String>(this, R.layout.item, R.id.TV, val);
+            listView.setAdapter(listAdapter);
+        }
+        else if(name.equals("Bulgaria"))
+        {
+            setTitle("Bulgaria Newspapers");
+            val = new String[] {"Dnevnik", "Standart", "Trud",
+                    "Kapital", "24 Chasa", "The Sofia Echo", "Meridian Match",
+                    "Novinar", "Telegraph", "Makedonia"};
+
+            ListAdapter listAdapter = new ArrayAdapter<String>(this, R.layout.item, R.id.TV, val);
+            listView.setAdapter(listAdapter);
+        }
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

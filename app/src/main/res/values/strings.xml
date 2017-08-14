@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">hey</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="aboutActivity">আমার জীবনের কিছু কথা আজ আপনাদের সাথে
+        শেয়ার করব।আমি যখন প্রথম গ্রামের প্রাইমারি
+        স্কুল ছেড়ে হাই স্কুল এ যাব তখন বাবা
+        বলেছিলেন “যখন তুমি বাসে যাতায়াত করবে
+        তখন বয়জৈষ্টদের শিশুদের নারীদের বসার
+        </string>
+    <string name="contactEmail"> Contact me\n\n
+        Email:<a href="https://myaccount.google.com/?utm_source=OGButm_medium=act"> chknochiketa.mir@gmail.com</a>\n
+        Facebook:<a href="https://www.facebook.com/nochiketa.chakraborty.9"> Nochiketa Chakraborty</a></string>
+
+</resources>

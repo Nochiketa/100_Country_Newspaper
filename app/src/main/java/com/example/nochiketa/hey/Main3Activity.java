@@ -2508,6 +2508,54 @@ public class Main3Activity extends AppCompatActivity {
                     myWebView.loadUrl("http://www.assabah.com.tn/");
                 }
             }
+            else if(country.equals("Bahrain"))
+            {
+                if(paper.equals("Al-Wasat"))
+                {
+                    setTitle("Al-Wasat");
+                    myWebView.loadUrl("http://www.alwasatnews.com/");
+                }
+                if(paper.equals("Gulf Daily News"))
+                {
+                    setTitle("Gulf Daily News");
+                    myWebView.loadUrl("http://www.gdnonline.com/");
+                }
+                if(paper.equals("Al Ayam"))
+                {
+                    setTitle("Al Ayam");
+                    myWebView.loadUrl("http://www.alayam.com/");
+                }
+                if(paper.equals("Akhbar Al Khaleej"))
+                {
+                    setTitle("Akhbar Al Khaleej");
+                    myWebView.loadUrl("http://www.akhbar-alkhaleej.com/");
+                }
+                if(paper.equals("Al-Watan"))
+                {
+                    setTitle("Al-Watan");
+                    myWebView.loadUrl("http://alwatannews.net/");
+                }
+                if(paper.equals("Daily Tribune"))
+                {
+                    setTitle("Daily Tribune");
+                    myWebView.loadUrl("http://www.dailytrib.com/");
+                }
+                if(paper.equals("Al Bilad"))
+                {
+                    setTitle("Al Bilad");
+                    myWebView.loadUrl("http://www.albiladpress.com/");
+                }
+                if(paper.equals("Al-Waqt"))
+                {
+                    setTitle("Al-Waqt");
+                    myWebView.loadUrl("http://www.alwaqt.com/");
+                }
+                if(paper.equals("Chandrika"))
+                {
+                    setTitle("Chandrika");
+                    myWebView.loadUrl("http://www.chandrikadaily.com/");
+                }
+            }
             myWebView.setWebViewClient(new WebViewClient());
         }
 

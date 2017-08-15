@@ -2662,6 +2662,112 @@ public class Main3Activity extends AppCompatActivity {
                     myWebView.loadUrl("https://www.revolvy.com/");
                 }
             }
+            else if(country.equals("Algeria"))
+            {
+                if(paper.equals("El Watan"))
+                {
+                    setTitle("El Watan");
+                    myWebView.loadUrl("http://www.elwatan.com/");
+                }
+                if(paper.equals("El Khabar"))
+                {
+                    setTitle("El Khabar");
+                    myWebView.loadUrl("http://www.elkhabar.com/");
+                }
+                if(paper.equals("Liberté"))
+                {
+                    setTitle("Liberté");
+                    myWebView.loadUrl("http://www.liberte-algerie.com/");
+                }
+                if(paper.equals("Echorouk"))
+                {
+                    setTitle("Echorouk");
+                    myWebView.loadUrl("http://www.echoroukonline.com/ara/");
+                }
+                if(paper.equals("El Massa"))
+                {
+                    setTitle("El Massa");
+                    myWebView.loadUrl("https://www.el-massa.com/");
+                }
+                if(paper.equals("El Moudjahid"))
+                {
+                    setTitle("El Moudjahid");
+                    myWebView.loadUrl("http://www.elmoudjahid.com/");
+                }
+                if(paper.equals("El Heddaf"))
+                {
+                    setTitle("El Heddaf");
+                    myWebView.loadUrl("http://www.elheddaf.com/");
+                }
+                if(paper.equals("Le Soir d'Algérie"))
+                {
+                    setTitle("Le Soir d'Algérie");
+                    myWebView.loadUrl("http://www.presse-algerie.fr/lesoir.php");
+                }
+                if(paper.equals("El Djoumhouria"))
+                {
+                    setTitle("El Djoumhouria");
+                    myWebView.loadUrl("https://www.eldjoumhouria.dz/");
+                }
+                if(paper.equals("El Acil"))
+                {
+                    setTitle("El Acil");
+                    myWebView.loadUrl("http://www.elacil.com/");
+                }
+            }
+            else if(country.equals("Afghanistan"))
+            {
+                if(paper.equals("Pajhwok Afgan News"))
+                {
+                    setTitle("Pajhwok Afgan News");
+                    myWebView.loadUrl("https://www.pajhwok.com/");
+                }
+                if(paper.equals("Afghanistan Times"))
+                {
+                    setTitle("Afghanistan Times");
+                    myWebView.loadUrl("http://afghanistantimes.af/");
+                }
+                if(paper.equals("The Afghanistan Sun"))
+                {
+                    setTitle("The Afghanistan Sun");
+                    myWebView.loadUrl("http://www.afghanistansun.com/");
+                }
+                if(paper.equals("Bassirat"))
+                {
+                    setTitle("Bassirat");
+                    myWebView.loadUrl("http://www.bassirat.net/");
+                }
+                if(paper.equals("Daily Afghanistan"))
+                {
+                    setTitle("Daily Afghanistan");
+                    myWebView.loadUrl("http://www.dailyafghanistan.com/");
+                }
+                if(paper.equals("The Dawat"))
+                {
+                    setTitle("The Dawat");
+                    myWebView.loadUrl("http://www.dawatfreemedia.org/");
+                }
+                if(paper.equals("Khaama Press"))
+                {
+                    setTitle("Khama Press");
+                    myWebView.loadUrl("http://www.khaama.com/");
+                }
+                if(paper.equals("Kabul Press"))
+                {
+                    setTitle("Kabul Press");
+                    myWebView.loadUrl("https://www.kabulpress.org/");
+                }
+                if(paper.equals("The Taand"))
+                {
+                    setTitle("The Taand");
+                    myWebView.loadUrl("http://www.taand.com/");
+                }
+                if(paper.equals("The Tolafghan"))
+                {
+                    setTitle("The Tolafghan");
+                    myWebView.loadUrl("http://www.tolafghan.com/");
+                }
+            }
             myWebView.setWebViewClient(new WebViewClient());
         }
 

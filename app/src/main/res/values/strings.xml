@@ -4,7 +4,12 @@
     <string name="close">Close</string>
 
     <string name="aboutActivity">
-        Here is our app
+        <b>100 Country Newspaper\n\n\n</b>
+        In this application , you will find over 900 newspaper
+        of around 100 countries. This will help you to get
+        updates from all over the world.It will inform you the
+        daily news of whole world.\n\n
+        Thank You! :)
         </string>
     <string name="contactEmail"> Contact me\n\n
         Email:<a href="https://myaccount.google.com/?utm_source=OGButm_medium=act"> chknochiketa.mir@gmail.com</a>\n

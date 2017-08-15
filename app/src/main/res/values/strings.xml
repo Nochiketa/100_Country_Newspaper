@@ -2,7 +2,9 @@
     <string name="app_name">hey</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+
     <string name="aboutActivity">
+        Here is our app
         </string>
     <string name="contactEmail"> Contact me\n\n
         Email:<a href="https://myaccount.google.com/?utm_source=OGButm_medium=act"> chknochiketa.mir@gmail.com</a>\n

@@ -88,10 +88,14 @@ public class MainActivity extends AppCompatActivity {
                 "Brazil","Sweden","Denmark","Cuba", "Egypt","Mexico","Iran","Belgium","Saudia Arabia",
                 "Sudan","Czech Republic","Bhutan", "United Arab Emirates","Hong Kong","New Zealand",
                 "Singapore","Norway","Ukrain","Scotland","Venezuela","Angola","Iraq","Tunisia","Bahrain",
-                "Finland","Bulgaria","Algeria","Afghanistan"
+                "Finland","Bulgaria","Algeria","Afghanistan","Cambodia","Latvia","Guine","Jordan","Yemen",
+                "Nigeria","Belarus","Colombia","Wales","Ghana","Serbia","Chad","Gabon","Bolivia","Hungary",
+                "Poland","Greece","Albania","Croatia","Luxembourg","Thailand","Philippines","Taiwan","Lebanon",
+                "Mongolia","Tanzania"
+                
         };
 
-        icon = new Integer[] {
+        icon = new Integer[]{
                 R.drawable.usa, R.drawable.india, R.drawable.bangladesh, R.drawable.uk,R.drawable.russia,
                 R.drawable.australia, R.drawable.canada,R.drawable.france, R.drawable.germany, R.drawable.japan,
                 R.drawable.china, R.drawable.southafrica, R.drawable.spain, R.drawable.pakistan,
@@ -103,6 +107,12 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.hongkong,R.drawable.newzealand,R.drawable.singapore,R.drawable.norway, R.drawable.ukrain,
                 R.drawable.scotland,R.drawable.venezuela,R.drawable.angola,R.drawable.iraq,R.drawable.tunisia,
                 R.drawable.bahrain,R.drawable.finland,R.drawable.bulgaria,R.drawable.algeria,R.drawable.afghanistan,
+                R.drawable.cambodia,R.drawable.latvia,R.drawable.guine,R.drawable.jordan,R.drawable.yemen,R.drawable.nigeria,
+                R.drawable.belarus,R.drawable.colombia,R.drawable.wales,R.drawable.ghana,R.drawable.serbia,R.drawable.chad,
+                R.drawable.gabon,R.drawable.bolivia,R.drawable.hungary,R.drawable.poland,R.drawable.greece,R.drawable.albania,
+                R.drawable.croatia,R.drawable.luxembourg,R.drawable.thailand,R.drawable.philippines,R.drawable.taiwan
+                ,R.drawable.lebanon,R.drawable.mongolia,R.drawable.tanzania
+
         };
 
         for (int i=0; i<name.length; i++) {

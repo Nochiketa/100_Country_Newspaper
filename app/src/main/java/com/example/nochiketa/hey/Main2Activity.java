@@ -840,6 +840,92 @@ public class Main2Activity extends AppCompatActivity {
             ListAdapter listAdapter = new ArrayAdapter<String>(this, R.layout.item, R.id.TV, val);
             listView.setAdapter(listAdapter);
         }
+        else if(name.equals("Brunei"))
+        {
+            setTitle("Brunei Newspapers");
+            val = new String[] {"Borneo Bulletin", "The Brunei Times"};
+
+            ListAdapter listAdapter = new ArrayAdapter<String>(this, R.layout.item, R.id.TV, val);
+            listView.setAdapter(listAdapter);
+        }
+        else if(name.equals("Ecuador"))
+        {
+            setTitle("Ecuador Newspapers");
+            val = new String[] {"Business News Americas", "The Correo", "The Cosas",
+                    "Cuenca High Life", "Cuenca News Digest", "Diario Cronica", "Diario El Extra",
+                    "Diario Hoy", "Ecuador Mundo", "Ecuador Reporter"};
+
+            ListAdapter listAdapter = new ArrayAdapter<String>(this, R.layout.item, R.id.TV, val);
+            listView.setAdapter(listAdapter);
+        }
+        else if(name.equals("Hondurus"))
+        {
+            setTitle("Hondurus Newspapers");
+            val = new String[] {"Diario Diez", "Diario La Prensa", "Diario Tiempo",
+                    "El Articulista", "El Escamoso", "El Heraldo", "El Libertador",
+                    "El Progreseno"};
+
+            ListAdapter listAdapter = new ArrayAdapter<String>(this, R.layout.item, R.id.TV, val);
+            listView.setAdapter(listAdapter);
+        }
+        else if(name.equals("Slovakia"))
+        {
+            setTitle("Slovakia Newspapers");
+            val = new String[] {"The Slovak Spectator", "Pravda", "Új Szó",
+                    "Hospodárske noviny", "Nový čas", "Korzár", "Národná obroda",
+                    "Košický večer"};
+
+            ListAdapter listAdapter = new ArrayAdapter<String>(this, R.layout.item, R.id.TV, val);
+            listView.setAdapter(listAdapter);
+        }
+        else if(name.equals("Chile"))
+        {
+            setTitle("Chile Newspapers");
+            val = new String[] {"El Mercurio", "La Tercera", "Las Últimas Noticias",
+                    "La Segunda", "La Cuarta", "elsur", "The Santiago Times",
+                    "Diario Austral", "La Nación", "In2EastAfrica"};
+
+            ListAdapter listAdapter = new ArrayAdapter<String>(this, R.layout.item, R.id.TV, val);
+            listView.setAdapter(listAdapter);
+        }
+        else if(name.equals("Paraguya"))
+        {
+            setTitle("Paraguya Newspapers");
+            val = new String[] {"Última Hora", "ABC Color", "The 1870 Digital",
+                     "E'a", "La Hoja Online", "La Nacion","Neike",
+                    "Noticias El Diario", "Viva Paraguay"};
+
+            ListAdapter listAdapter = new ArrayAdapter<String>(this, R.layout.item, R.id.TV, val);
+            listView.setAdapter(listAdapter);
+        }
+        else if(name.equals("Botswana"))
+        {
+            setTitle("Botswana Newspapers");
+            val = new String[] {"The Botswana Gazette", "Mmegi", "The Voice",
+                    "Sunday Times", "The Midweek Sun", "The NTA News Time"};
+
+            ListAdapter listAdapter = new ArrayAdapter<String>(this, R.layout.item, R.id.TV, val);
+            listView.setAdapter(listAdapter);
+        }
+        else if(name.equals("Liberia"))
+        {
+            setTitle("Liberia Newspapers");
+            val = new String[] {"The Analyst Newspaper", "Concord Times", "Daily Observer",
+                    "Global News Network", "Hints News Network", "The Informer", "In Profile Daily"};
+
+            ListAdapter listAdapter = new ArrayAdapter<String>(this, R.layout.item, R.id.TV, val);
+            listView.setAdapter(listAdapter);
+        }
+        else if(name.equals("Chile"))
+        {
+            setTitle("Chile Newspapers");
+            val = new String[] {"El Mercurio", "La Tercera", "Las Últimas Noticias",
+                    "La Segunda", "La Cuarta", "elsur", "The Santiago Times",
+                    "Diario Austral", "La Nación", "In2EastAfrica"};
+
+            ListAdapter listAdapter = new ArrayAdapter<String>(this, R.layout.item, R.id.TV, val);
+            listView.setAdapter(listAdapter);
+        }
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

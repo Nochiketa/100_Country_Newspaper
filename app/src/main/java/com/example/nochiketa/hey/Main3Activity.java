@@ -3885,7 +3885,6 @@ public class Main3Activity extends AppCompatActivity {
                     setTitle("The Express");
                     myWebView.loadUrl("http://www.theexpress.com/");
                 }
-                //Nnn
                 if(paper.equals("Guardian IPP"))
                 {
                     setTitle("Guardian IPP");
@@ -3897,7 +3896,336 @@ public class Main3Activity extends AppCompatActivity {
                     myWebView.loadUrl("http://in2eastafrica.net/?hg=0&nr=0");
                 }
             }
-            //enable change
+            else if(country.equals("Brunei"))
+            {
+                if(paper.equals("Borneo Bulletin"))
+                {
+                    setTitle("Borneo Bulletin");
+                    myWebView.loadUrl("http://borneobulletin.com.bn/");
+                }
+                if(paper.equals("The Brunei Times"))
+                {
+                    setTitle("The Brunei Times");
+                    myWebView.loadUrl("https://www.youtube.com/user/thebruneitimes");
+                }
+                if(paper.equals("Media Permata"))
+                {
+                    setTitle("Media Permata");
+                    myWebView.loadUrl("http://mediapermata.com.bn/");
+                }
+            }
+            else if(country.equals("Ecuador"))
+            {
+                if(paper.equals("Business News Americas"))
+                {
+                    setTitle("Business News Americas");
+                    myWebView.loadUrl("http://www.bnamericas.com/");
+                }
+                if(paper.equals("The Correo"))
+                {
+                    setTitle("The Correo");
+                    myWebView.loadUrl("http://www.orenses.com/");
+                }
+                if(paper.equals("The Cosas"))
+                {
+                    setTitle("The Cosas");
+                    myWebView.loadUrl("http://cosas.com.ec/");
+                }
+                if(paper.equals("Cuenca High Life"))
+                {
+                    setTitle("Cuenca High Life");
+                    myWebView.loadUrl("https://cuencahighlife.com");
+                }
+                if(paper.equals("Cuenca News Digest"))
+                {
+                    setTitle("Cuenca News Digest");
+                    myWebView.loadUrl("http://www.cuencanewsdigest.com/");
+                }
+                if(paper.equals("Diario Cronica"))
+                {
+                    setTitle("Diario Cronica");
+                    myWebView.loadUrl("https://www.cronica.com.ec/");
+                }
+                if(paper.equals("Diario El Extra"))
+                {
+                    setTitle("Diario El Extra");
+                    myWebView.loadUrl("http://www.extra.ec/");
+                }
+                if(paper.equals("Diario Hoy"))
+                {
+                    setTitle("Diario Hoy");
+                    myWebView.loadUrl("http://www.hoy.com.ec/");
+                }
+                if(paper.equals("Ecuador Mundo"))
+                {
+                    setTitle("Ecuador Mundo");
+                    myWebView.loadUrl("http://www.ecuadormundo.com");
+                }
+                if(paper.equals("Ecuador Reporter"))
+                {
+                    setTitle("Ecuador Reporter");
+                    myWebView.loadUrl("http://www.ecuadorreporter.com/");
+                }
+            }
+            else if(country.equals("Hondurus"))
+            {
+                if(paper.equals("Diario Diez"))
+                {
+                    setTitle("Diario Diez");
+                    myWebView.loadUrl("http://www.diez.hn/");
+                }
+                if(paper.equals("Diario La Prensa"))
+                {
+                    setTitle("Diario La Prensa");
+                    myWebView.loadUrl("http://www.laprensa.hn/");
+                }
+                if(paper.equals("Diario Tiempo"))
+                {
+                    setTitle("Diario Tiempo");
+                    myWebView.loadUrl("http://tiempo.hn/");
+                }
+                if(paper.equals("El Articulista"))
+                {
+                    setTitle("El Articulista");
+                    myWebView.loadUrl("http://www.diarioelarticulista.com/");
+                }
+                if(paper.equals("El Escamoso"))
+                {
+                    setTitle("El Escamoso");
+                    myWebView.loadUrl("http://elescamoso.es.tl/");
+                }
+                if(paper.equals("El Heraldo"))
+                {
+                    setTitle("El Heraldo");
+                    myWebView.loadUrl("http://www.elheraldo.hn/");
+                }
+                if(paper.equals("El Libertador"))
+                {
+                    setTitle("El Libertador");
+                    myWebView.loadUrl("http://www.web.ellibertador.hn/");
+                }
+                if(paper.equals("El Progreseno"))
+                {
+                    setTitle("El Progreseno");
+                    myWebView.loadUrl("http://www.elprogreseno.hn/");
+                }
+            }
+
+            else if(country.equals("Slovakia"))
+            {
+                if(paper.equals("The Slovak Spectator"))
+                {
+                    setTitle("The Slovak Spectator");
+                    myWebView.loadUrl("https://spectator.sme.sk/");
+                }
+                if(paper.equals("Pravda"))
+                {
+                    setTitle("Pravda");
+                    myWebView.loadUrl("https://www.pravda.sk/");
+                }
+                if(paper.equals("Új Szó"))
+                {
+                    setTitle("Új Szó");
+                    myWebView.loadUrl("http://ujszo.com/");
+                }
+                if(paper.equals("Hospodárske noviny"))
+                {
+                    setTitle("Hospodárske noviny");
+                    myWebView.loadUrl("http://hnonline.sk/");
+                }
+                if(paper.equals("Nový čas"))
+                {
+                    setTitle("Nový čas");
+                    myWebView.loadUrl("https://www.cas.sk/");
+                }
+                if(paper.equals("Korzár"))
+                {
+                    setTitle("Korzár");
+                    myWebView.loadUrl("https://korzar.sme.sk/");
+                }
+                if(paper.equals("Národná obroda"))
+                {
+                    setTitle("Národná obroda");
+                    myWebView.loadUrl("https://en.wikipedia.org/wiki/N%C3%A1rodn%C3%A1_obroda");
+                }
+                if(paper.equals("Košický večer"))
+                {
+                    setTitle("Košický večer");
+                    myWebView.loadUrl("https://kosice.korzar.sme.sk/");
+                }
+            }
+            else if(country.equals("Chile"))
+            {
+                if(paper.equals("El Mercurio"))
+                {
+                    setTitle("El Mercurio");
+                    myWebView.loadUrl("http://impresa.elmercurio.com/pages/LUNHomepage.aspx?BodyID=1&dtB=2017-08-16");
+                }
+                if(paper.equals("La Tercera"))
+                {
+                    setTitle("La Tercera");
+                    myWebView.loadUrl("http://www.latercera.com/");
+                }
+                if(paper.equals("Las Últimas Noticias"))
+                {
+                    setTitle("Las Últimas Noticias");
+                    myWebView.loadUrl("http://www.lun.com/");
+                }
+                if(paper.equals("La Segunda"))
+                {
+                    setTitle("La Segunda");
+                    myWebView.loadUrl("http://impresa.lasegunda.com/2017/08/14/A");
+                }
+                if(paper.equals("La Cuarta"))
+                {
+                    setTitle("La Cuarta");
+                    myWebView.loadUrl("http://www.lacuarta.com/");
+                }
+                if(paper.equals("elsur"))
+                {
+                    setTitle("elsur");
+                    myWebView.loadUrl("http://www.elsur.cl/impresa/2017/08/16/papel/");
+                }
+                if(paper.equals("The Santiago Times"))
+                {
+                    setTitle("The Santiago Times");
+                    myWebView.loadUrl("http://santiagotimes.cl/");
+                }
+                if(paper.equals("Diario Austral"))
+                {
+                    setTitle("Diario Austral");
+                    myWebView.loadUrl("http://www.australtemuco.cl/impresa/2017/08/16/papel/");
+                }
+                if(paper.equals("La Nación"))
+                {
+                    setTitle("La Nación");
+                    myWebView.loadUrl("http://lanacion.cl/");
+                }
+                if(paper.equals("El Rancagüino"))
+                {
+                    setTitle("El Rancagüino");
+                    myWebView.loadUrl("http://elrancaguino.cl/");
+                }
+            }
+            else if(country.equals("Paraguya"))
+            {
+                if(paper.equals("Última Hora"))
+                {
+                    setTitle("Última Hora");
+                    myWebView.loadUrl("http://www.ultimahora.com/");
+                }
+                if(paper.equals("ABC Color"))
+                {
+                    setTitle("ABC Color");
+                    myWebView.loadUrl("http://www.abc.com.py/");
+                }
+                if(paper.equals("The 1870 Digital"))
+                {
+                    setTitle("The 1870 Digital");
+                    myWebView.loadUrl("http://1870digital.com/");
+                }
+                if(paper.equals("E'a"))
+                {
+                    setTitle("E'a");
+                    myWebView.loadUrl("http://ea.com.py/v2/");
+                }
+                if(paper.equals("La Hoja Online"))
+                {
+                    setTitle("La Hoja Online");
+                    myWebView.loadUrl("http://www.lahojaonline.com/");
+                }
+                if(paper.equals("La Nacion"))
+                {
+                    setTitle("La Nacion");
+                    myWebView.loadUrl("http://www.lanacion.com.py/");
+                }
+                if(paper.equals("Neike"))
+                {
+                    setTitle("Neike");
+                    myWebView.loadUrl("http://www.neike.com.py/");
+                }
+                if(paper.equals("Noticias El Diario"))
+                {
+                    setTitle("Noticias El Diario");
+                    myWebView.loadUrl("http://www.diarionoticias.com.py/");
+                }
+                if(paper.equals("Viva Paraguay"))
+                {
+                    setTitle("Viva Paraguay");
+                    myWebView.loadUrl("http://www.vivaparaguay.com/modules/news/");
+                }
+            }
+            else if(country.equals("Botswana"))
+            {
+                if(paper.equals("The Botswana Gazette"))
+                {
+                    setTitle("The Botswana Gazette");
+                    myWebView.loadUrl("http://www.thegazette.news/");
+                }
+                if(paper.equals("Mmegi"))
+                {
+                    setTitle("Mmegi");
+                    myWebView.loadUrl("http://www.mmegi.bw/");
+                }
+                if(paper.equals("The Voice"))
+                {
+                    setTitle("The Voice");
+                    myWebView.loadUrl("https://thevoicebw.com/home-2/");
+                }
+                if(paper.equals("Sunday Times"))
+                {
+                    setTitle("Sunday Times");
+                    myWebView.loadUrl("https://www.timeslive.co.za/sunday-times/");
+                }
+                if(paper.equals("The Midweek Sun"))
+                {
+                    setTitle("The Midweek Sun");
+                    myWebView.loadUrl("http://www.themidweeksun.co.bw/");
+                }
+                if(paper.equals("The NTA News Time"))
+                {
+                    setTitle("The NTA News Time");
+                    myWebView.loadUrl("http://www.newstimeafrica.com/archives/category/southern-africa/botswana");
+                }
+            }
+            else if(country.equals("Liberia"))
+            {
+                if(paper.equals("The Analyst Newspaper"))
+                {
+                    setTitle("The Analyst Newspaper");
+                    myWebView.loadUrl("http://www.analystliberia.com/");
+                }
+                if(paper.equals("Concord Times"))
+                {
+                    setTitle("Concord Times");
+                    myWebView.loadUrl("http://www.concordtimes-lib.com/");
+                }
+                if(paper.equals("Daily Observer"))
+                {
+                    setTitle("Daily Observer");
+                    myWebView.loadUrl("https://www.liberianobserver.com/");
+                }
+                if(paper.equals("Global News Network"))
+                {
+                    setTitle("Global News Network");
+                    myWebView.loadUrl("http://www.gnnliberia.com/");
+                }
+                if(paper.equals("Hints News Network"))
+                {
+                    setTitle("Hints News Network");
+                    myWebView.loadUrl("http://hintsnewsnetwork.com/");
+                }
+                if(paper.equals("The Informer"))
+                {
+                    setTitle("The Informer");
+                    myWebView.loadUrl("http://www.informerliberia.net/");
+                }
+                if(paper.equals("In Profile Daily"))
+                {
+                    setTitle("In Profile Daily");
+                    myWebView.loadUrl("http://inprofiledaily.com/");
+                }
+            }
 
             myWebView.setWebViewClient(new WebViewClient());
         }

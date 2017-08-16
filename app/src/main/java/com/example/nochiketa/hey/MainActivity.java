@@ -91,7 +91,8 @@ public class MainActivity extends AppCompatActivity {
                 "Finland","Bulgaria","Algeria","Afghanistan","Cambodia","Latvia","Guine","Jordan","Yemen",
                 "Nigeria","Belarus","Colombia","Wales","Ghana","Serbia","Chad","Gabon","Bolivia","Hungary",
                 "Poland","Greece","Albania","Croatia","Luxembourg","Thailand","Philippines","Taiwan","Lebanon",
-                "Mongolia","Tanzania"
+                "Mongolia","Tanzania","Brunei","Ecuador","Hondurus","Slovakia","Chile","Paraguya","Botswana",
+                "Liberia"
                 
         };
 
@@ -110,9 +111,9 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.cambodia,R.drawable.latvia,R.drawable.guine,R.drawable.jordan,R.drawable.yemen,R.drawable.nigeria,
                 R.drawable.belarus,R.drawable.colombia,R.drawable.wales,R.drawable.ghana,R.drawable.serbia,R.drawable.chad,
                 R.drawable.gabon,R.drawable.bolivia,R.drawable.hungary,R.drawable.poland,R.drawable.greece,R.drawable.albania,
-                R.drawable.croatia,R.drawable.luxembourg,R.drawable.thailand,R.drawable.philippines,R.drawable.taiwan
-                ,R.drawable.lebanon,R.drawable.mongolia,R.drawable.tanzania
-
+                R.drawable.croatia,R.drawable.luxembourg,R.drawable.thailand,R.drawable.philippines,R.drawable.taiwan,
+                R.drawable.lebanon,R.drawable.mongolia,R.drawable.tanzania,R.drawable.brunei,R.drawable.ecuador,R.drawable.hondurus,
+                R.drawable.slovakia,R.drawable.chile,R.drawable.paraguya,R.drawable.botswana,R.drawable.liberia,
         };
 
         for (int i=0; i<name.length; i++) {

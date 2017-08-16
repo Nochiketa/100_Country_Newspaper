@@ -8,7 +8,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/download"
-        android:label="100 Country Newspaper"
+        android:label="100 Country Newspapers"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">

@@ -4226,6 +4226,517 @@ public class Main3Activity extends AppCompatActivity {
                     myWebView.loadUrl("http://inprofiledaily.com/");
                 }
             }
+            else if(country.equals("Qatar"))
+            {
+                if(paper.equals("Gulf Times"))
+                {
+                    setTitle("Gulf Times");
+                    myWebView.loadUrl("http://www.gulf-times.com/");
+                }
+                if(paper.equals("Al Sharq"))
+                {
+                    setTitle("Al Sharq");
+                    myWebView.loadUrl("http://www.al-sharq.com/");
+                }
+                if(paper.equals("The Peninsula"))
+                {
+                    setTitle("The Peninsula");
+                    myWebView.loadUrl("https://www.thepeninsulaqatar.com/");
+                }
+                if(paper.equals("Al-Watan"))
+                {
+                    setTitle("Al-Watan");
+                    myWebView.loadUrl("http://www.al-watan.com/");
+                }
+                if(paper.equals("Al Raya"))
+                {
+                    setTitle("Al Raya");
+                    myWebView.loadUrl("http://www.raya.com/portal");
+                }
+                if(paper.equals("Al Arab"))
+                {
+                    setTitle("Al Arab");
+                    myWebView.loadUrl("http://www.alarab.co.uk/en/");
+                }
+                if(paper.equals("Qatar Tribune"))
+                {
+                    setTitle("Qatar Tribune");
+                    myWebView.loadUrl("http://www.qatartribuneepaper.qa/QatarTribunepaper.aspx");
+                }
+            }
+            else if(country.equals("Ireland"))
+            {
+                if(paper.equals("Irish Independent"))
+                {
+                    setTitle("Irish Independent");
+                    myWebView.loadUrl("http://www.independent.ie/");
+                }
+                if(paper.equals("Irish News"))
+                {
+                    setTitle("Irish News");
+                    myWebView.loadUrl("http://www.irishnews.com/");
+                }
+                if(paper.equals("Irish Times"))
+                {
+                    setTitle("Irish Times");
+                    myWebView.loadUrl("https://www.irishtimes.com/");
+                }
+                if(paper.equals("Irish Examiner"))
+                {
+                    setTitle("Irish Examiner");
+                    myWebView.loadUrl("http://www.irishexaminer.com/");
+                }
+                if(paper.equals("Evening Herald"))
+                {
+                    setTitle("Evening Herald");
+                    myWebView.loadUrl("http://www.herald.ie/");
+                }
+                if(paper.equals("Freeman's Journal"))
+                {
+                    setTitle("Freeman's Journal");
+                    myWebView.loadUrl("http://freemansjournal.ie/");
+                }
+                if(paper.equals("Belfast Newsletter"))
+                {
+                    setTitle("Belfast Newsletter");
+                    myWebView.loadUrl("http://www.newsletter.co.uk/");
+                }
+                if(paper.equals("The Irish Press"))
+                {
+                    setTitle("The Irish Press");
+                    myWebView.loadUrl("https://www.irishnewsarchive.com/irish-press-newspaper-archive");
+                }
+                if(paper.equals("Irish Daily Star"))
+                {
+                    setTitle("Irish Daily Star");
+                    myWebView.loadUrl("http://thestar.ie/");
+                }
+                if(paper.equals("Belfast Telegraph"))
+                {
+                    setTitle("Belfast Telegraph");
+                    myWebView.loadUrl("http://www.belfasttelegraph.co.uk/");
+                }
+            }
+            else if(country.equals("Romania"))
+            {
+                if(paper.equals("Adevărul"))
+                {
+                    setTitle("Adevărul");
+                    myWebView.loadUrl("http://adevarul.ro/");
+                }
+                if(paper.equals("Libertatea"))
+                {
+                    setTitle("Libertatea");
+                    myWebView.loadUrl("http://www.libertatea.ro/");
+                }
+                if(paper.equals("Evenimentul Zilei"))
+                {
+                    setTitle("Evenimentul Zilei");
+                    myWebView.loadUrl("http://evz.ro/");
+                }
+                if(paper.equals("România Liberă"))
+                {
+                    setTitle("România Liberă");
+                    myWebView.loadUrl("http://romanialibera.ro/");
+                }
+                if(paper.equals("Cotidianul"))
+                {
+                    setTitle("Cotidianul");
+                    myWebView.loadUrl("http://www.cotidianul.ro/");
+                }
+                if(paper.equals("Gazeta Sporturilor"))
+                {
+                    setTitle("Gazeta Sporturilor");
+                    myWebView.loadUrl("http://www.gsp.ro/");
+                }
+                if(paper.equals("Ziarul Financiar"))
+                {
+                    setTitle("Ziarul Financiar");
+                    myWebView.loadUrl("http://www.zf.ro/");
+                }
+                if(paper.equals("ProSport"))
+                {
+                    setTitle("ProSport");
+                    myWebView.loadUrl("http://www.prosport.ro/");
+                }
+                if(paper.equals("Ziua"))
+                {
+                    setTitle("Ziua");
+                    myWebView.loadUrl("http://www.ziuanews.ro/en");
+                }
+                if(paper.equals("Jurnalul Național"))
+                {
+                    setTitle("Jurnalul Național");
+                    myWebView.loadUrl("http://jurnalul.ro/");
+                }
+            }
+            else if(country.equals("Slovenia"))
+            {
+                if(paper.equals("The Delo"))
+                {
+                    setTitle("The Delo");
+                    myWebView.loadUrl("http://www.delo.si/");
+                }
+                if(paper.equals("Dnevnik"))
+                {
+                    setTitle("Dnevnik");
+                    myWebView.loadUrl("https://www.dnevnik.si/");
+                }
+                if(paper.equals("Večer"))
+                {
+                    setTitle("Večer");
+                    myWebView.loadUrl("http://www.vecer.com/");
+                }
+                if(paper.equals("Primorske novice"))
+                {
+                    setTitle("Primorske novice");
+                    myWebView.loadUrl("http://www.primorske.si/");
+                }
+                if(paper.equals("Žurnal24"))
+                {
+                    setTitle("Žurnal24");
+                    myWebView.loadUrl("http://www.zurnal24.si/");
+                }
+                if(paper.equals("Finance"))
+                {
+                    setTitle("Finance");
+                    myWebView.loadUrl("https://www.ft.com/?mhq5j=e4");
+                }
+                if(paper.equals("Primorski dnevnik"))
+                {
+                    setTitle("Primorski dnevnik");
+                    myWebView.loadUrl("http://www.primorski.it/");
+                }
+                if(paper.equals("Dom in svet"))
+                {
+                    setTitle("Dom in svet");
+                    myWebView.loadUrl("https://www.dlib.si/");
+                }
+            }
+            else if(country.equals("Estonia"))
+            {
+                if(paper.equals("Postimees"))
+                {
+                    setTitle("Postimees");
+                    myWebView.loadUrl("http://www.postimees.ee/");
+                }
+                if(paper.equals("Äripäev"))
+                {
+                    setTitle("Äripäev");
+                    myWebView.loadUrl("http://www.aripaev.ee/");
+                }
+                if(paper.equals("Õhtuleht"))
+                {
+                    setTitle("Õhtuleht");
+                    myWebView.loadUrl("http://www.ohtuleht.ee/");
+                }
+                if(paper.equals("Eesti Ekspress"))
+                {
+                    setTitle("Eesti Ekspress");
+                    myWebView.loadUrl("http://ekspress.delfi.ee/");
+                }
+                if(paper.equals("The Baltic Times"))
+                {
+                    setTitle("The Baltic Times");
+                    myWebView.loadUrl("https://www.baltictimes.com/");
+                }
+                if(paper.equals("Kesknädal"))
+                {
+                    setTitle("Kesknädal");
+                    myWebView.loadUrl("http://www.kesknadal.ee/");
+                }
+                if(paper.equals("Põhjarannik"))
+                {
+                    setTitle("Põhjarannik");
+                    myWebView.loadUrl("http://pr.pohjarannik.ee/");
+                }
+                if(paper.equals("Lääne Elu"))
+                {
+                    setTitle("Lääne Elu");
+                    myWebView.loadUrl("http://online.le.ee/tag/hanila/");
+                }
+                if(paper.equals("Uma Leht"))
+                {
+                    setTitle("Uma Leht");
+                    myWebView.loadUrl("http://umaleht.ee/");
+                }
+                if(paper.equals("Sakala"))
+                {
+                    setTitle("Sakala");
+                    myWebView.loadUrl("http://sakala.postimees.ee/");
+                }
+            }
+            else if(country.equals("Jamaica"))
+            {
+                if(paper.equals("The Jamaica Observer"))
+                {
+                    setTitle("The Jamaica Observer");
+                    myWebView.loadUrl("http://www.jamaicaobserver.com/");
+                }
+                if(paper.equals("The Jamaica Gleaner"))
+                {
+                    setTitle("The Jamaica Gleaner");
+                    myWebView.loadUrl("http://jamaica-gleaner.com/");
+                }
+                if(paper.equals("The Jamaica Star"))
+                {
+                    setTitle("The Jamaica Star");
+                    myWebView.loadUrl("http://jamaica-star.com/");
+                }
+                if(paper.equals("The Commentator"))
+                {
+                    setTitle("The Commentator");
+                    myWebView.loadUrl("http://www.thecommentatorjm.com/");
+                }
+                if(paper.equals("The Jamaica Patriot"))
+                {
+                    setTitle("The Jamaica Patriot");
+                    myWebView.loadUrl("http://jamaicapatriot.com/");
+                }
+            }
+            else if(country.equals("Moldova"))
+            {
+                if(paper.equals("Moldova Suverană"))
+                {
+                    setTitle("Moldova Suverană");
+                    myWebView.loadUrl("http://moldova-suverana.md/");
+                }
+                if(paper.equals("Observatorul de Nord"))
+                {
+                    setTitle("Observatorul de Nord");
+                    myWebView.loadUrl("https://observatorul.md/");
+                }
+                if(paper.equals("Unghiul"))
+                {
+                    setTitle("Unghiul");
+                    myWebView.loadUrl("http://unghiul.info/");
+                }
+                if(paper.equals("Timpul de dimineață"))
+                {
+                    setTitle("Timpul de dimineață");
+                    myWebView.loadUrl("http://www.timpul.md/");
+                }
+                if(paper.equals("Nezavisimaya Gazeta"))
+                {
+                    setTitle("Nezavisimaya Gazeta");
+                    myWebView.loadUrl("http://www.ng.ru/");
+                }
+                if(paper.equals("Expresul de Ungheni"))
+                {
+                    setTitle("Expresul de Ungheni");
+                    myWebView.loadUrl("https://www.expresul.md/");
+                }
+                if(paper.equals("Adevărul Moldova"))
+                {
+                    setTitle("Adevărul Moldova");
+                    myWebView.loadUrl("http://adevarul.ro/moldova/");
+                }
+                if(paper.equals("Cuvântul"))
+                {
+                    setTitle("Cuvântul");
+                    myWebView.loadUrl("https://en.wikipedia.org/wiki/Cuv%C3%A2ntul_(Moldovan_newspaper)");
+                }
+                if(paper.equals("Basarabia"))
+                {
+                    setTitle("Basarabia");
+                    myWebView.loadUrl("https://en.wikipedia.org/wiki/Basarabia_(newspaper)");
+                }
+                if(paper.equals("Moldova"))
+                {
+                    setTitle("Moldova");
+                    myWebView.loadUrl("http://www.onlinenewspapers.com/moldova.htm");
+                }
+            }
+            else if(country.equals("Malaysia"))
+            {
+                if(paper.equals("The Star"))
+                {
+                    setTitle("The Star");
+                    myWebView.loadUrl("http://www.thestar.com.my/");
+                }
+                if(paper.equals("New Straits Times"))
+                {
+                    setTitle("New Straits Times");
+                    myWebView.loadUrl("https://www.nst.com.my/");
+                }
+                if(paper.equals("Utusan Malaysia"))
+                {
+                    setTitle("Utusan Malaysia");
+                    myWebView.loadUrl("http://www.utusan.com.my/");
+                }
+                if(paper.equals("Malaysiakini"))
+                {
+                    setTitle("Malaysiakini");
+                    myWebView.loadUrl("https://www.malaysiakini.com/");
+                }
+                if(paper.equals("Malay Mail"))
+                {
+                    setTitle("Malay Mail");
+                    myWebView.loadUrl("http://www.themalaymailonline.com/");
+                }
+                if(paper.equals("Berita Harian"))
+                {
+                    setTitle("Berita Harian");
+                    myWebView.loadUrl("https://www.bharian.com.my/");
+                }
+                if(paper.equals("Harian Metro"))
+                {
+                    setTitle("Harian Metro");
+                    myWebView.loadUrl("https://www.hmetro.com.my/");
+                }
+                if(paper.equals("The Sun"))
+                {
+                    setTitle("The Sun");
+                    myWebView.loadUrl("http://www.thesundaily.my/");
+                }
+                if(paper.equals("Sin Chew Daily"))
+                {
+                    setTitle("Sin Chew Daily");
+                    myWebView.loadUrl("http://www.sinchew.com.my/");
+                }
+                if(paper.equals("China Press"))
+                {
+                    setTitle("China Press");
+                    myWebView.loadUrl("http://www.chinapress.com.my/");
+                }
+            }
+            else if(country.equals("Kuwait"))
+            {
+                if(paper.equals("Kuwait Times"))
+                {
+                    setTitle("Kuwait Times");
+                    myWebView.loadUrl("http://news.kuwaittimes.net/website/");
+                }
+                if(paper.equals("Arab Times"))
+                {
+                    setTitle("Arab Times");
+                    myWebView.loadUrl("http://www.arabtimesonline.com/news/");
+                }
+                if(paper.equals("Al-Watan"))
+                {
+                    setTitle("Al-Watan");
+                    myWebView.loadUrl("http://alwatan.kuwait.tt");
+                }
+                if(paper.equals("Al-Anba"))
+                {
+                    setTitle("Al-Anba");
+                    myWebView.loadUrl("http://www.alanba.com.kw/newspaper/");
+                }
+                if(paper.equals("Al-Qabas"))
+                {
+                    setTitle("Al-Qabas");
+                    myWebView.loadUrl("http://alqabas.com/");
+                }
+                if(paper.equals("Al Rai"))
+                {
+                    setTitle("Al Rai");
+                    myWebView.loadUrl("http://www.alraimedia.com/");
+                }
+                if(paper.equals("Al-Jarida"))
+                {
+                    setTitle("Al-Jarida");
+                    myWebView.loadUrl("http://www.aljarida.com/");
+                }
+                if(paper.equals("Al-Seyassah"))
+                {
+                    setTitle("Al-Seyassah");
+                    myWebView.loadUrl("https://al-seyassah.com/");
+                }
+                if(paper.equals("Al-Sabah"))
+                {
+                    setTitle("Al-Sabah");
+                    myWebView.loadUrl("http://www.alsabaah.iq/");
+                }
+                if(paper.equals("Annahar"))
+                {
+                    setTitle("Annahar");
+                    myWebView.loadUrl("http://www.annaharkw.com/Annahar/Default.aspx");
+                }
+            }
+            else if(country.equals("Laos"))
+            {
+                if(paper.equals("Vientiane Times"))
+                {
+                    setTitle("Vientiane Times");
+                    myWebView.loadUrl("http://www.vientianetimes.org.la/");
+                }
+                if(paper.equals("Vientiane Mai"))
+                {
+                    setTitle("Vientiane Mai");
+                    myWebView.loadUrl("http://www.vientianemai.net/");
+                }
+                if(paper.equals("Pasason"))
+                {
+                    setTitle("Pasason");
+                    myWebView.loadUrl("http://www.pasaxon.org.la/");
+                }
+                if(paper.equals("Pathet Lao"))
+                {
+                    setTitle("Pathet Lao");
+                    myWebView.loadUrl("https://en.wikipedia.org/wiki/Pathet_Lao_(newspaper)");
+                }
+                if(paper.equals("Viengchanmay"))
+                {
+                    setTitle("Viengchanmay");
+                    myWebView.loadUrl("http://wikivisually.com/wiki/Viengchanmay");
+                }
+            }
+            else if(country.equals("Uzbekistan"))
+            {
+                if(paper.equals("Futbol Gazetasi"))
+                {
+                    setTitle("Futbol Gazetasi");
+                    myWebView.loadUrl("http://futbol.uzbekworld.com/");
+                }
+                if(paper.equals("Hamkor"))
+                {
+                    setTitle("Hamkor");
+                    myWebView.loadUrl("http://www.hamkor.uzpak.uz/");
+                }
+                if(paper.equals("Harakat"))
+                {
+                    setTitle("Harakat");
+                    myWebView.loadUrl("http://www.harakat.net/");
+                }
+                if(paper.equals("The Nalog"))
+                {
+                    setTitle("The Nalog");
+                    myWebView.loadUrl("http://www.nalog.uz/");
+                }
+                if(paper.equals("The Onlife"))
+                {
+                    setTitle("The Onlife");
+                    myWebView.loadUrl("http://onlife.mnet.uz/");
+                }
+            }
+            else if(country.equals("Macau"))
+            {
+                if(paper.equals("Macao Daily News"))
+                {
+                    setTitle("Macao Daily News");
+                    myWebView.loadUrl("http://www.macaodaily.com/html/2017-08/16/node_2.htm");
+                }
+                if(paper.equals("Macau Post Daily"))
+                {
+                    setTitle("Macau Post Daily");
+                    myWebView.loadUrl("http://www.macaupostdaily.com/");
+                }
+                if(paper.equals("Va Kio Daily"))
+                {
+                    setTitle("Va Kio Daily");
+                    myWebView.loadUrl("http://www.vakiodaily.com/");
+                }
+                if(paper.equals("O Clarim"))
+                {
+                    setTitle("O Clarim");
+                    myWebView.loadUrl("http://www.oclarim.com.mo/en/");
+                }
+                if(paper.equals("Hong Kong Economic Journal"))
+                {
+                    setTitle("Hong Kong Economic Journal");
+                    myWebView.loadUrl("http://www2.hkej.com/landing/index");
+                }
+            }
 
             myWebView.setWebViewClient(new WebViewClient());
         }

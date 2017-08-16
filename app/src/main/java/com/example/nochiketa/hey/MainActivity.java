@@ -92,8 +92,8 @@ public class MainActivity extends AppCompatActivity {
                 "Nigeria","Belarus","Colombia","Wales","Ghana","Serbia","Chad","Gabon","Bolivia","Hungary",
                 "Poland","Greece","Albania","Croatia","Luxembourg","Thailand","Philippines","Taiwan","Lebanon",
                 "Mongolia","Tanzania","Brunei","Ecuador","Hondurus","Slovakia","Chile","Paraguya","Botswana",
-                "Liberia"
-                
+                "Liberia","Qatar","Ireland","Romania","Slovenia","Estonia","Jamaica","Moldova","Malaysia","Kuwait",
+                "Laos","Uzbekistan","Macau"
         };
 
         icon = new Integer[]{
@@ -113,7 +113,10 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.gabon,R.drawable.bolivia,R.drawable.hungary,R.drawable.poland,R.drawable.greece,R.drawable.albania,
                 R.drawable.croatia,R.drawable.luxembourg,R.drawable.thailand,R.drawable.philippines,R.drawable.taiwan,
                 R.drawable.lebanon,R.drawable.mongolia,R.drawable.tanzania,R.drawable.brunei,R.drawable.ecuador,R.drawable.hondurus,
-                R.drawable.slovakia,R.drawable.chile,R.drawable.paraguya,R.drawable.botswana,R.drawable.liberia,
+                R.drawable.slovakia,R.drawable.chile,R.drawable.paraguya,R.drawable.botswana,R.drawable.liberia,R.drawable.qatar,
+                R.drawable.ireland,R.drawable.romania,R.drawable.slovenia,R.drawable.estonia,R.drawable.jamaica,R.drawable.moldova,
+                R.drawable.malaysia,R.drawable.kuwait,R.drawable.laos,R.drawable.uzbekistan,R.drawable.macau
+
         };
 
         for (int i=0; i<name.length; i++) {

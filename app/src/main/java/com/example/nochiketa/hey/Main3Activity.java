@@ -3897,6 +3897,7 @@ public class Main3Activity extends AppCompatActivity {
                     myWebView.loadUrl("http://in2eastafrica.net/?hg=0&nr=0");
                 }
             }
+            //enable change
 
             myWebView.setWebViewClient(new WebViewClient());
         }

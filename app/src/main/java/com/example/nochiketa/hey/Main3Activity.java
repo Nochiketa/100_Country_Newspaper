@@ -32,6 +32,7 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
 import static android.content.Intent.FLAG_ACTIVITY_CLEAR_TOP;
+import static android.view.View.GONE;
 
 public class Main3Activity extends AppCompatActivity {
     private WebView myWebView;
@@ -73,7 +74,6 @@ public class Main3Activity extends AppCompatActivity {
             pdialog.setCancelable(true);
             pdialog.setMessage("Loading .... Please Wait");
             pdialog.show();
-
             if(country.equals("USA"))
             {
                 if(paper.equals("The Washigton Post"))

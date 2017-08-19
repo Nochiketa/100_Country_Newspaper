@@ -62,6 +62,39 @@ public class Main3Activity extends AppCompatActivity {
 
         myWebView = (WebView)findViewById(R.id.wb);
 
+        WebSettings webSettings = myWebView.getSettings();
+        myWebView.setWebViewClient(new HelpClient());
+
+        myWebView.setWebChromeClient(new WebChromeClient()
+        {
+            public void onProgressChanged(WebView view, int progress)
+            {
+                frameLayout.setVisibility(View.VISIBLE);
+                progressBar.setProgress(progress);
+                if(progress == 100)
+                {
+                    frameLayout.setVisibility(View.GONE);
+                }
+                super.onProgressChanged(view, progress);
+            }
+        });
+
+        myWebView.setVerticalScrollBarEnabled(false);
+        webSettings.setJavaScriptEnabled(true);
+        myWebView.getSettings().setRenderPriority(WebSettings.RenderPriority.HIGH);
+        myWebView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
+        myWebView.getSettings().setAppCacheEnabled(true);
+        myWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
+        webSettings.setDomStorageEnabled(true);
+        webSettings.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.NARROW_COLUMNS);
+        webSettings.setUseWideViewPort(true);
+        webSettings.setSavePassword(true);
+        webSettings.setSaveFormData(true);
+        webSettings.setEnableSmoothTransition(true);
+        myWebView.getSettings().setBuiltInZoomControls(true);
+
+
+
         mAdview = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdview.loadAd(adRequest);
@@ -70,27 +103,6 @@ public class Main3Activity extends AppCompatActivity {
         NetworkInfo ninfo = cManager.getActiveNetworkInfo();
         if(ninfo != null && ninfo.isConnected())
         {
-            myWebView.setWebViewClient(new HelpClient());
-
-            myWebView.setWebChromeClient(new WebChromeClient()
-            {
-                public void onProgressChanged(WebView view, int progress)
-                {
-                    frameLayout.setVisibility(View.VISIBLE);
-                    progressBar.setProgress(progress);
-                    if(progress == 100)
-                    {
-                        frameLayout.setVisibility(View.GONE);
-                    }
-                    super.onProgressChanged(view, progress);
-                }
-            });
-            WebSettings webSettings = myWebView.getSettings();
-            myWebView.setVerticalScrollBarEnabled(false);
-            webSettings.setJavaScriptEnabled(true);
-            myWebView.getSettings().setBuiltInZoomControls(true);
-
-
            /* ProgressDialog pdialog=new ProgressDialog(this);
             pdialog.setTitle("Loading");
             pdialog.setCancelable(true);

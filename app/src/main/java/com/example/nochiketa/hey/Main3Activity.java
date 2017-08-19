@@ -20,10 +20,12 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.WebChromeClient;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -38,12 +40,18 @@ public class Main3Activity extends AppCompatActivity {
     private WebView myWebView;
     String country, paper;
     AdView mAdview;
-    //private ProgressDialog progressDialog;
+    private ProgressBar progressBar;
+    private FrameLayout frameLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
+
+        progressBar = (ProgressBar)findViewById(R.id.progressbar);
+        frameLayout = (FrameLayout)findViewById(R.id.frameLayout);
+        progressBar.setMax(100);
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
@@ -55,25 +63,40 @@ public class Main3Activity extends AppCompatActivity {
         paper = getIntent().getStringExtra("paper");
 
         myWebView = (WebView)findViewById(R.id.wb);
-        WebSettings webSettings = myWebView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
 
         mAdview = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdview.loadAd(adRequest);
 
-        myWebView.getSettings().setBuiltInZoomControls(true);
-        myWebView.getSettings().setDisplayZoomControls(false);
-
         ConnectivityManager cManager = (ConnectivityManager) getSystemService(this.CONNECTIVITY_SERVICE);
         NetworkInfo ninfo = cManager.getActiveNetworkInfo();
         if(ninfo != null && ninfo.isConnected())
         {
-            ProgressDialog pdialog=new ProgressDialog(this);
+            myWebView.setWebViewClient(new HelpClient());
+
+            myWebView.setWebChromeClient(new WebChromeClient()
+            {
+                public void onProgressChanged(WebView view, int progress)
+                {
+                    frameLayout.setVisibility(View.VISIBLE);
+                    progressBar.setProgress(progress);
+                    if(progress == 100)
+                    {
+                        frameLayout.setVisibility(View.GONE);
+                    }
+                    super.onProgressChanged(view, progress);
+                }
+            });
+            WebSettings webSettings = myWebView.getSettings();
+            myWebView.setVerticalScrollBarEnabled(false);
+            webSettings.setJavaScriptEnabled(true);
+
+           /* ProgressDialog pdialog=new ProgressDialog(this);
             pdialog.setTitle("Loading");
             pdialog.setCancelable(true);
             pdialog.setMessage("Loading .... Please Wait");
-            pdialog.show();
+            pdialog.show();*/
+
             if(country.equals("USA"))
             {
                 if(paper.equals("The Washigton Post"))
@@ -4746,8 +4769,30 @@ public class Main3Activity extends AppCompatActivity {
             Toast.makeText(this,"No Internet Connection!!!! Please Check your Internet Connection\n And try again..", Toast.LENGTH_LONG).show();
         }
     }
+    public class HelpClient extends WebViewClient {
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            view.loadUrl(url);
+            frameLayout.setVisibility(view.VISIBLE);
+            return true;
+        }
+    }
 
-    public void onBackPressed() {
+    @Override
+    public boolean onKeyDown(int KeyCode, KeyEvent event)
+    {
+        if(KeyCode == KeyEvent.KEYCODE_BACK)
+        {
+            if(myWebView.canGoBack())
+            {
+                myWebView.goBack();
+                return true;
+            }
+        }
+        return super.onKeyDown(KeyCode, event);
+    }
+
+   /* public void onBackPressed() {
         if(myWebView.canGoBack()) {
             myWebView.goBack();
 
@@ -4756,7 +4801,7 @@ public class Main3Activity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
-
+*/
     @Override
     public  boolean onCreateOptionsMenu(Menu menu)
     {

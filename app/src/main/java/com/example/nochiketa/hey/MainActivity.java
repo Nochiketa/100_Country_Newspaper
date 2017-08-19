@@ -192,25 +192,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void exit(MenuItem menuItem)
     {
+        onBackPressed();
         mDrawerLayout.closeDrawers();
-        AlertDialog.Builder mBuilder = new AlertDialog.Builder(MainActivity.this);
-        mBuilder.setIcon(R.drawable.icon1);
-        mBuilder.setTitle("100 Country Newspapers");
-        mBuilder.setMessage("Do you want to exit?");
-        mBuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                finish();
-            }
-        });
-        mBuilder.setNegativeButton("No", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                dialog.dismiss();
-            }
-        });
-        AlertDialog alertDialog = mBuilder.create();
-        alertDialog.show();
     }
 
     @Override

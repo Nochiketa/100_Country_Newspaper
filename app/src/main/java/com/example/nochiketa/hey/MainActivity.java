@@ -2,6 +2,7 @@ package com.example.nochiketa.hey;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;;
 import android.support.annotation.NonNull;
@@ -9,6 +10,7 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.ShareActionProvider;
@@ -187,5 +189,49 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, contactActivity.class);
         startActivity(i);
         mDrawerLayout.closeDrawers();
+    }
+    public void exit(MenuItem menuItem)
+    {
+        mDrawerLayout.closeDrawers();
+        AlertDialog.Builder mBuilder = new AlertDialog.Builder(MainActivity.this);
+        mBuilder.setIcon(R.drawable.icon1);
+        mBuilder.setTitle("100 Country Newspapers");
+        mBuilder.setMessage("Do you want to exit?");
+        mBuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finish();
+            }
+        });
+        mBuilder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        AlertDialog alertDialog = mBuilder.create();
+        alertDialog.show();
+    }
+
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder mBuilder = new AlertDialog.Builder(MainActivity.this);
+        mBuilder.setIcon(R.drawable.icon1);
+        mBuilder.setTitle("100 Country Newspapers");
+        mBuilder.setMessage("Do you want to exit?");
+        mBuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finish();
+            }
+        });
+        mBuilder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        AlertDialog alertDialog = mBuilder.create();
+        alertDialog.show();
     }
 }

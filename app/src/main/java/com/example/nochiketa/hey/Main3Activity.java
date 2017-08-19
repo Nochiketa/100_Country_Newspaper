@@ -1,7 +1,5 @@
 package com.example.nochiketa.hey;
 
-
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -90,6 +88,8 @@ public class Main3Activity extends AppCompatActivity {
             WebSettings webSettings = myWebView.getSettings();
             myWebView.setVerticalScrollBarEnabled(false);
             webSettings.setJavaScriptEnabled(true);
+            myWebView.getSettings().setBuiltInZoomControls(true);
+
 
            /* ProgressDialog pdialog=new ProgressDialog(this);
             pdialog.setTitle("Loading");
@@ -4770,6 +4770,7 @@ public class Main3Activity extends AppCompatActivity {
         }
     }
     public class HelpClient extends WebViewClient {
+
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
             view.loadUrl(url);

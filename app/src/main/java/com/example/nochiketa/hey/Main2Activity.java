@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -26,10 +27,13 @@ public class Main2Activity extends AppCompatActivity {
     String[] val;
     String name;
     AdView mAdview;
+    Toolbar mToolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        mToolbar = (Toolbar)findViewById(R.id.nav_action);
+        setSupportActionBar(mToolbar);
 
         name = getIntent().getStringExtra("name");
 
@@ -777,8 +781,8 @@ public class Main2Activity extends AppCompatActivity {
         else if(name.equals("Luxembourg"))
         {
             setTitle("Luxembourg Newspapers");
-            val = new String[] {"Luxemburger Wort", "Tageblatt", "Slobodna Dalmacija",
-                    "Novi list", "Vjesnik", "24sata"};
+            val = new String[] {"Luxemburger Wort", "Tageblatt", "Lëtzebuerger Journal",
+                    "L'essentiel", "Le Quotidien", "Point24"};
 
             ListAdapter listAdapter = new ArrayAdapter<String>(this, R.layout.item, R.id.TV, val);
             listView.setAdapter(listAdapter);

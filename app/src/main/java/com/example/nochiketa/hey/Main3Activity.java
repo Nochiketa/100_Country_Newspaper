@@ -40,11 +40,15 @@ public class Main3Activity extends AppCompatActivity {
     AdView mAdview;
     private ProgressBar progressBar;
     private FrameLayout frameLayout;
+    Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
+
+        mToolbar = (Toolbar)findViewById(R.id.nav_action);
+        setSupportActionBar(mToolbar);
 
         progressBar = (ProgressBar)findViewById(R.id.progressbar);
         frameLayout = (FrameLayout)findViewById(R.id.frameLayout);

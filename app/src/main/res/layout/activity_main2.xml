@@ -8,7 +8,19 @@
     android:background="#fff"
     tools:context="com.example.nochiketa.hey.Main2Activity"
     >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
+    <include layout="@layout/navigation_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
     <ListView
         android:id="@+id/list2"
         android:layout_width="match_parent"
@@ -23,5 +35,9 @@
         ads:adSize="BANNER"
         ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
     </com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>
+
+    </LinearLayout>
 
 </RelativeLayout>

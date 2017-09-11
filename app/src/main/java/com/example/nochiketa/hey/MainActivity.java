@@ -14,6 +14,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.ShareActionProvider;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
     NavigationView navigationView;
+    Toolbar mToolbar;
     //ProgressDialog progressDialog;
 
     @Override
@@ -45,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.ListViewMain);
         mAdview = (AdView) findViewById(R.id.adView);
         mDrawerLayout = (DrawerLayout)findViewById(R.id.Drawerlayout);
+        mToolbar = (Toolbar)findViewById(R.id.nav_action);
+        setSupportActionBar(mToolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Home");

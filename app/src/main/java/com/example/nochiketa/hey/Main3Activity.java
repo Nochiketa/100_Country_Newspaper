@@ -95,7 +95,8 @@ public class Main3Activity extends AppCompatActivity {
         webSettings.setSavePassword(true);
         webSettings.setSaveFormData(true);
         webSettings.setEnableSmoothTransition(true);
-        myWebView.getSettings().setBuiltInZoomControls(true);
+
+
 
         mAdview = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -110,7 +111,9 @@ public class Main3Activity extends AppCompatActivity {
             pdialog.setCancelable(true);
             pdialog.setMessage("Loading .... Please Wait");
             pdialog.show();
-*/
+            */
+            myWebView.getSettings().setBuiltInZoomControls(true);
+
             if(country.equals("USA"))
             {
                 if(paper.equals("The Washington Post"))

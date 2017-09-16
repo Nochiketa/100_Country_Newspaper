@@ -5,9 +5,12 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Canvas;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.CountDownTimer;
+import android.os.Environment;
+import android.provider.MediaStore;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -30,6 +33,10 @@ import android.widget.Toast;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 
 import static android.content.Intent.FLAG_ACTIVITY_CLEAR_TOP;
 import static android.view.View.GONE;
@@ -131,17 +138,17 @@ public class Main3Activity extends AppCompatActivity {
                     setTitle("The Wall Street Journal");
                     myWebView.loadUrl("https://www.wsj.com/asia");
                 }
-                else if(paper.equals("The Chicago Tribune"))
+                else if(paper.equals("Chicago Tribune"))
                 {
                     setTitle("The Chicago Tribune");
                     myWebView.loadUrl("http://www.chicagotribune.com/");
                 }
-                else if(paper.equals("The Las Vegas Sun"))
+                else if(paper.equals("Las Vegas Sun"))
                 {
                     setTitle("The Las Vegas Sun");
                     myWebView.loadUrl("https://lasvegassun.com/");
                 }
-                else if(paper.equals("The USA Today"))
+                else if(paper.equals("USA Today"))
                 {
                     setTitle("The USA Today");
                     myWebView.loadUrl("http://www.usatoday.com/");
@@ -251,7 +258,7 @@ public class Main3Activity extends AppCompatActivity {
                     setTitle("The Daily Star");
                     myWebView.loadUrl("http://www.thedailystar.net/");
                 }
-                if(paper.equals("The Amardesh Desh"))
+                if(paper.equals("The Amar Desh"))
                 {
                     setTitle("The Amar Desh");
                     myWebView.loadUrl("http://www.amardesh.com/");
@@ -4810,6 +4817,8 @@ public class Main3Activity extends AppCompatActivity {
         return super.onKeyDown(KeyCode, event);
     }
 
+
+
    /* public void onBackPressed() {
         if(myWebView.canGoBack()) {
             myWebView.goBack();
@@ -4820,6 +4829,7 @@ public class Main3Activity extends AppCompatActivity {
         }
     }
 */
+
     @Override
     public  boolean onCreateOptionsMenu(Menu menu)
     {

@@ -29,7 +29,8 @@
         <activity
             android:name=".AboutActivity"
             android:theme="@style/AppTheme.CustomTheme"></activity>
-        <activity android:name=".contactActivity"
+        <activity
+            android:name=".contactActivity"
             android:theme="@style/AppTheme.CustomTheme"></activity>
     </application>
 

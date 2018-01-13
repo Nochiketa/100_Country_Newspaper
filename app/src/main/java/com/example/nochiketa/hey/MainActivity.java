@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.ListViewMain);
         mAdview = (AdView) findViewById(R.id.adView);
         mDrawerLayout = (DrawerLayout)findViewById(R.id.Drawerlayout);
-        mToolbar = (Toolbar)findViewById(R.id.nav_action);
+        mToolbar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

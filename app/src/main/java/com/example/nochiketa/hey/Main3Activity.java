@@ -54,7 +54,7 @@ public class Main3Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
-        mToolbar = (Toolbar)findViewById(R.id.nav_action);
+        mToolbar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
 
         progressBar = (ProgressBar)findViewById(R.id.progressbar);
@@ -535,14 +535,14 @@ public class Main3Activity extends AppCompatActivity {
                     setTitle("The Ouest-France");
                     myWebView.loadUrl("http://www.ouest-france.fr/");
                 }
-                if(paper.equals("The Humanite"))
+                if(paper.equals("The L'Humanite"))
                 {
-                    setTitle("The Humanite");
+                    setTitle("The L'Humanite");
                     myWebView.loadUrl("http://www.humanite.fr/");
                 }
-                if(paper.equals("The La-Croix"))
+                if(paper.equals("The La Croix"))
                 {
-                    setTitle("The La-Croix");
+                    setTitle("The La Croix");
                     myWebView.loadUrl("http://www.la-croix.com/");
                 }
             }
